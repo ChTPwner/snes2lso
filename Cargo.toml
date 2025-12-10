@@ -1,5 +1,5 @@
 [package]
-name = "asr-lso"
+name = "snes2lso"
 version = "0.1.0"
 edition = "2024"
 description = "AutoSplitter Runtime bridge for LiveSplit one"

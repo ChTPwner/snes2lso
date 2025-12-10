@@ -72,22 +72,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "69f7f8c3906b62b754cd5326047894316021dcfe5a194c8ea52bdd94934a3457"
 
 [[package]]
-name = "asr-lso"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "livesplit-auto-splitting",
- "log",
- "pretty_env_logger",
- "serde",
- "serde_derive",
- "serde_json",
- "toml",
- "tungstenite",
-]
-
-[[package]]
 name = "async-trait"
 version = "0.1.88"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1773,6 +1757,22 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "snes2lso"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "livesplit-auto-splitting",
+ "log",
+ "pretty_env_logger",
+ "serde",
+ "serde_derive",
+ "serde_json",
+ "toml",
+ "tungstenite",
 ]
 
 [[package]]
